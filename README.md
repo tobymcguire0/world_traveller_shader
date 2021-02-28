@@ -22,15 +22,15 @@ The opposite of the cut shader, works the same way but clips pixels that are gre
 ## Smooth Cuts
 The cuts are currently too sharp and not really fun to look at, so I added a colored edge effect using noise to soften the transition and make it look like the objects are dissolving rather than being cut.
 
-<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/CutShaderNoiseOutline.PNG" width=300 align=left>
+<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/CutShaderNoiseOutline.PNG" width=300 align=center>
 
-<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/RevealNoiseOutline.PNG" width=300 align=left>
+<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/RevealNoiseOutline.PNG" width=300 align=center>
 
 
 ## In practice
 I used both of these shaders in combination with a simple Fersnel effect shader to create an openable portal that switches the world wherever the player is standing by pressing *Space*
 
-<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/WorldNoBubble.PNG" width=300 align=left>
+<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/WorldNoBubble.PNG" width=400 align=center>
 
-<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/WorldBubble.PNG" width=300 align=left>
+<img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/WorldBubble.PNG" width=400 align=center>
 
