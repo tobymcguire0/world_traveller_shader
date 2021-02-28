@@ -9,6 +9,7 @@ The project makes use of Unity's Universal Render Pipeline / Lightweight Render 
 I wanted to make two shaders, one that reveals terrain in an area and one that removes terrain from the same area, resulting in a "seamless" transition between areas
 
 <img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/RegularSliceShader.PNG" width=300 align=left>
+
 ## Cut Shader
 This shader clips any pixels that are less than radius away from an point, both can be changed in code or manually. This essentially makes a sphere cut
 
@@ -17,9 +18,17 @@ This shader clips any pixels that are less than radius away from an point, both 
 
 
 
+
+
+
+
 <img src="https://github.com/tobymcguire0/images/blob/main/WorldTravellerImg/RevealRegular.PNG" width=300 align=left>
+
 ## Reveal Shader
 The opposite of the cut shader, works the same way but clips pixels that are greater than a radius away from a point
+
+
+
 
 
 
